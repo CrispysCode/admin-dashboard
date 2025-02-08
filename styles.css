@@ -11,6 +11,8 @@
     border: 1px solid black;
 }
 
+/* Header Section */
+
 .header {
     border: 1px solid black;
     grid-column: 2 / 2;
@@ -24,4 +26,22 @@
     border: 1px solid black;
     display: flex;
     align-items: center;
+}
+
+.header-bottom {
+    display: flex;
+    align-items: center;
+}
+
+/* Sidebar Section */
+
+.sidebar {
+    display: grid;
+    
+}
+
+input {
+    width: 300px;
+    height: 25px;
+    border: 1px solid deeppink;
 }
