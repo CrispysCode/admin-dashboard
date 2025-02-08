@@ -98,7 +98,9 @@ button {
 /* Sidebar Section */
 
 .sidebar {
-    background-color: red;
+    background-color: rgb(92, 190, 255);
+    color: rgb(255, 255, 255);
+
     display: flex;
     flex-direction: column;
     border: 1px solid black;
@@ -108,24 +110,34 @@ button {
 .logo {
     display: flex;
     height: 100px;
-    margin-left: 16px;
+    margin-left: 24px;
     gap: 16px;
     align-items: center;
     font-size: 18px;
     font-weight: bold;
+    margin-right: auto;
 }
 
 .links {
-    border: 1px solid black;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 38px;
+    gap: 16px;
+}
+
+.link:hover,
+.logo:hover {
+    cursor: pointer;
 }
 
 .link {
     display: flex;
     align-items: center;
+    gap: 16px;
 }
 
 /* Main Section */
