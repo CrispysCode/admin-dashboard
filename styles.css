@@ -10,6 +10,8 @@
     grid-template-rows: 1fr 5fr;
     border: 1px solid black;
     background-color: green;
+    width: 100%;
+    height: 100vh;
 }
 
 /* Header Section */
@@ -35,17 +37,51 @@
 }
 
 input {
-    width: 50rem;
+    min-width: 200px;
+    width: 800px;
     height: 30px;
-    border: 1px solid deeppink;
+    border: 1px solid #dfdfdf;
     background-color: #dfdfdf;
     border-radius: 15px;
-    margin-right: 10rem;
+    margin-right: 118px;
 }
 
 .header-bottom {
     display: flex;
     align-items: center;
+    padding-left: 28px;
+    padding-bottom: 12px;
+    padding-top: 4px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+    margin-left: 35px;
+}
+.account-2 {
+    margin-right: 18px;
+}
+
+.header-bottom p {
+    font-weight: bold;
+    font-size: 24px;
+    margin-right: 480px;
+}
+
+.lowercase {
+    font-size: 14px;
+}
+
+button {
+    background-color: #2e9aff;
+    padding: 12px 30px;
+    border: 1px solid #2e9aff;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .magnify {
