@@ -20,14 +20,27 @@
     grid-row: 1 / 2;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    background-color: wheat;
+    background-color: rgb(255, 255, 255);
 }
 
 .header-top {
     grid-row: 1 / 1;
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
     display: flex;
     align-items: center;
+    padding-top: 12px;
+    padding-left: 28px;
+    /* justify-content: space-between; */
+    
+}
+
+input {
+    width: 50rem;
+    height: 30px;
+    border: 1px solid deeppink;
+    background-color: #dfdfdf;
+    border-radius: 15px;
+    margin-right: 10rem;
 }
 
 .header-bottom {
@@ -35,6 +48,17 @@
     align-items: center;
 }
 
+.magnify {
+    margin-right: 12px;
+}
+
+.bell {
+    margin-right: 48px;
+}
+
+.account {
+    margin-right: 48px;
+}
 /* Sidebar Section */
 
 .sidebar {
@@ -81,8 +105,3 @@
     border: 1px solid black;
 }
 
-input {
-    width: 300px;
-    height: 25px;
-    border: 1px solid deeppink;
-}
